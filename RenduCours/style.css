@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Police/Minecraft.ttf');
+}
+
+@font-face {
+    font-family: 'Grascraft';
+    src: url('Police/04B_30__.TTF');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+/*All*/
+img.imgmarge{
+    border: 4px solid  rgba(68, 192, 15);
+}
+/* Header Logo Titre*/
+nav.HautP{
+    display: flex;
+    background-image: url("Image/terreTexture..png");
+    padding: 0.5%;
+    background-size: 10%;
+}
+
+h1.titre{
+    font-family: 'Minecraft';
+    font-size:350% ;
+    letter-spacing: 0.1em;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
+    color: rgb(68, 192, 15);
+    padding-top: 1%;
+    font-size: auto;
+    margin: auto;
+}
+
+
+
+/*Header lien*/
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Grascraft';
+}
+li {
+    padding : 0.5em;
+    margin: auto;
+    background-color: white;
+    border:  6px solid rgb(68, 192, 15);
+    color:rgb(68, 192, 15);
+    font-style: oblique;
+    text-decoration: none;
+    transition: all 0.3s; 
+}
+a{
+    text-decoration: none;
+}
+nav.liste {
+    background-color:rgb(68, 192, 15);
+    width: 100%;
+    position: sticky top;
+}
+li:hover{
+    padding : 0.5em;
+    margin: auto;
+    background-color: rgb(68, 192, 15);
+    border:  6px solid white;
+    color: white;
+    font-style: oblique;    
+    text-decoration: none;
+}
+/*Main Acceuil*/
+h3.titre{
+    font-family: 'Grascraft';
+    font-size: 200%;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+p.texte1{
+    font-family: 'Minecraft';
+    font-size: 130%;
+    text-align: center;
+    border: 4px solid  rgba(68, 192, 15);
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+p.texte2{
+    
+    font-size: 120%;
+    text-align: center;
+}
+img.imgdecal{
+    padding-left: 7%;
+}
+div.indexmain{
+    font-family: 'Minecraft';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p.texte3{
+    margin-top: 2%;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-family: 'Minecraft';
+    font-size: 120%;
+    text-align: center;
+}
+p.texte4{
+    font-family: 'Minecraft';
+    font-size: 130%;
+    text-align: center;
+    border: 4px solid  rgba(68, 192, 15);
+    padding: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.mainA{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img.mainA{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+/* Main Gameplay */
+.soustitreGame{
+    font-family: 'Minecraft';
+    font-size: 150%;
+    text-align: center;
+    border: 4px solid  rgba(68, 192, 15);
+    padding: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+p.txtGame{
+    font-family: 'Minecraft';
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.mainGame1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.mainGame2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+img.img2{
+    margin-left: 4%;
+    width: 65%;
+}
+.mainGame3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+img.img3{
+    width: 40%;
+}
+.mainGame4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+div.imgGame4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img.img4{
+    width: 30%;
+    height: 30%;
+    margin-right: 2%;
+}  
+img.img5{
+    width: 30%;
+    height: 30%;
+    margin-right: 2%;
+} 
+.mainGame5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+div.imgGame5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img.img7{
+    width: 20%;
+    height: 20%;
+    margin-right: 2%;
+}  
+img.img8{
+    width: 30%;
+    height: 30%;
+    margin-right: 2%;
+}
+img.img9{
+    width: 30%;
+    height: 30%;
+
+}
+.mainGame6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+img.img10{
+    width: 40%;
+    height: 40%;
+
+}
+.mainGame7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+div.imgGame6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img.img11{
+    width: 50%;
+    height: 50%;
+    margin-right: 2%;
+
+}
+img.img12{
+    width: 70%;
+    height: 70%;
+
+}
+/*Main Record*/
+h3.titreR{
+    font-family: 'Grascraft';
+    font-size: 200%;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+p.texteR1{
+    font-family: 'Minecraft';
+    font-size: 130%;
+    text-align: center;
+    border: 4px solid  rgba(68, 192, 15);
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+p.texteR2{
+    font-family: 'Minecraft';
+    font-size: 120%;
+    text-align: center;
+}
+div.WR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p.texteR3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-family: 'Minecraft';
+    font-size: 120%;
+    text-align: center;
+}
+p.texteR4{
+    font-family: 'Minecraft';
+    font-size: 130%;
+    text-align: center;
+    border: 4px solid  rgba(68, 192, 15);
+    padding: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+  
+
+
+/*footer*/
+footer{
+    display: flex;
+    background-color: rgba(68, 192, 15);
+    justify-content: center;
+}
+p.centre{
+    font-family: 'Grascraft';
+    color: rgba(68, 192, 15);
+    font-size: 120%;
+    padding: 1%;
+    text-align: center;
+    margin: auto;
+    width: 100%;   
+}
+a.posC {
+    background-color: white;
+    border: 6px solid rgb(68, 192, 15);
+    width: 25%;
+    transition: all 0.3s;
+}
+a.posC:hover{
+    background-color: rgb(68, 192, 15);
+    color: white;
+    border: 6px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    li {
+        margin: 5px 0;
+    }
+
+    h1.titre {
+        font-size: 2em; /* Ajustez la taille de la police pour une meilleure lisibilité */
+    }
+
+    .texte1 {
+        font-size: 110%; /* Ajustez la taille de la police pour une meilleure lisibilité */
+    }
+
+    img.imgmarge {
+        width: 100%;
+    }
+
+    /* Ajoutez d'autres ajustements pour les autres éléments selon vos besoins */
+}
+
+/* Media queries pour les écrans plus petits */
+
+@media only screen and (max-width: 600px) {
+    h1.titre {
+        font-size: 1.5em; /* Ajustez la taille de la police pour une meilleure lisibilité */
+    }
+
+    .texte1 {
+        font-size: 100%; /* Ajustez la taille de la police pour une meilleure lisibilité */
+    }
+
+    /* Ajoutez d'autres ajustements pour les autres éléments selon vos besoins */
+}
